@@ -24,7 +24,7 @@ namespace ex14
 
             linia = sR.ReadLine();
             nProductes = Convert.ToInt32(linia);
-        
+
             for (i = 0; i < nProductes; i++)
             {
                 linia = sR.ReadLine();

@@ -6,7 +6,7 @@
         /// Fes un programa que demani 10 números per teclat i que els sumi. Al final del recorregut ha de
         /// mostrar la sum de tots els números.
         /// </summary>
-   
+
         static void Main(string[] args)
         {
             int sum = 0;

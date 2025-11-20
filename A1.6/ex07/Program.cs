@@ -1,6 +1,4 @@
-﻿using System.Runtime.ConstrainedExecution;
-
-namespace ex07
+﻿namespace ex07
 {
     internal class Program
     {

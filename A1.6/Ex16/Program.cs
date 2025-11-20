@@ -25,7 +25,7 @@ namespace ex16
 
             for (int i = 0; i < num; i++)
             {
-                Console.WriteLine(GenerarLinia(caracter, i));                
+                Console.WriteLine(GenerarLinia(caracter, i));
             }
         }
         public static string GenerarLinia(char car, int longitud)

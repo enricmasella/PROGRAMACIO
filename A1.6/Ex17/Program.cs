@@ -16,19 +16,19 @@ namespace ex17
         {
             int num;
 
-            Console.Write("Introdueix un numero: "); 
+            Console.Write("Introdueix un numero: ");
             num = Convert.ToInt32(Console.ReadLine());
 
             MostrarTaula(num);
-            
+
         }
         public static void MostrarTaula(int numTaula)
         {
             int result;
-            
+
             for (int i = 0; i <= 10; i++)
             {
-                result= i * numTaula;
+                result = i * numTaula;
                 Console.WriteLine($"{numTaula} x {i} = {result}");
             }
         }

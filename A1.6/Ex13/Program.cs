@@ -19,7 +19,7 @@ namespace ex13
             int pGuanyats = 0, pEmpatats = 0, pPerduts = 0;
             int i;
 
-   
+
             linia = sR.ReadLine();
             qJornades = Convert.ToInt32(linia);
 
