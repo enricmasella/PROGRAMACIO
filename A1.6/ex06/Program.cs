@@ -1,34 +1,36 @@
-﻿namespace ex05
+﻿namespace Ex06
 {
     internal class Program
     {
+        /// <summary>
+        /// Fes un programa que demani 10 números per teclat. En acabar el programa ha d’informar de
+        /// quants números son positius, negatius i zeros
+        /// </summary>
         static void Main(string[] args)
         {
-            int zeros = 0;
-            int negatius = 0;
-            int positius = 0;
             int num;
+            int Positius = 0, Negatius = 0, Zero = 0;
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Digues un numero: ");
-                num = Convert .ToInt32(Console.ReadLine());
-                if (num == 0)
+                Console.Write("Introdueix un numero: ");
+                num = Convert.ToInt32(Console.ReadLine());
+
+                if (num > 0)
                 {
-                    zeros++;
+                    Positius++;
                 }
                 else if (num < 0)
                 {
-                    negatius++;
+                    Negatius++;
                 }
-                 
-                else if (num> 0)
+                else
                 {
-                    positius++;
+                    Zero++;
                 }
-
             }
-            Console.WriteLine($"has introduit {positius} numeros positius, {negatius} numeros negatius i {zeros} zeros");
+
+            Console.WriteLine($"Has introduit {Positius} numeros positius, {Negatius} numeros negatius i {Zero} zeros");
 
         }
     }

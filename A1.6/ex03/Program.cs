@@ -1,17 +1,28 @@
-﻿namespace ex03
+﻿namespace Ex03
 {
     internal class Program
     {
+        /// <summary>
+        /// Fes un programa que demani dos números i mostri per pantalla tots els valors compresos entre
+        /// aquests dos números.
+        /// ENTRA n1: 5
+        /// ENTRA n2: 900
+        /// 5, 6, ………., 900
+        /// </summary>
         static void Main(string[] args)
         {
-            int x;
-            int y;
-            Console.Write("digues un numero: ");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.Write("digues un altre numero: ");
-            y = Convert.ToInt32(Console.ReadLine());
+            int num1, num2;
+            Console.Write("Introdueix un numero: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = x;  i <= y; i++) { Console.WriteLine(i); }
+            Console.Write("Introdueix un altre numero: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = num1; i <= num2; i++)
+            {
+                Console.WriteLine(i);
+            }
+
         }
     }
 }

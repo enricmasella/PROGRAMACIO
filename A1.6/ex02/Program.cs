@@ -1,21 +1,23 @@
-﻿namespace ex02
+﻿namespace Ex02
 {
     internal class Program
     {
+        /// <summary>
+        ///Escriure els 20 primers números parells.
+        /// 2, 4, 6,......... 40
+        /// </summary>
         static void Main(string[] args)
         {
-            int K = 1;
-            for (int i = 1; K != 20 ; i++)
+            int parell = 0;
+            int x;
+            for (x = 1; parell <= 20; x++)
             {
-                if (i % 2 == 0)
+                if (x % 2 == 0)
                 {
-                    Console.WriteLine(i);
-                    K++;
+                    Console.WriteLine(x);
+                    parell++;
                 }
-               
-
             }
-
         }
     }
 }

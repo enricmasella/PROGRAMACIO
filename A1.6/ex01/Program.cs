@@ -1,12 +1,16 @@
-﻿namespace ex01
+﻿namespace Ex01
 {
     internal class Program
     {
+        /// <summary>
+        /// Escriure els 20 primers números en ordre ascendent.
+        /// 1, 2, 3,........ 20
+        /// </summary>
         static void Main(string[] args)
         {
-            for (int x = 1; x <= 20; x++)
+            for (int i = 1; i <= 20; i++)
             {
-                Console.WriteLine(x);
+                Console.WriteLine(i);
             }
         }
     }

@@ -1,21 +1,29 @@
-﻿namespace ex03
+﻿namespace Ex04
 {
     internal class Program
     {
+        /// <summary>
+        /// Modifica l’anterior programa fent que no es mostrin els números que siguin múltiples de 7.
+        /// </summary>
         static void Main(string[] args)
         {
-            int x;
-            int y;
-            Console.Write("digues un numero: ");
-            x = Convert.ToInt32(Console.ReadLine());
-            Console.Write("digues un altre numero: ");
-            y = Convert.ToInt32(Console.ReadLine());
+            int num1, num2;
 
-            for (int i = x; i <= y; i++) 
+            Console.Write("Introdueix un numero: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Introdueix un altr numero: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = num1; i <= num2; i++)
             {
-                if (i % 7 == 0 )
+                if (i % 7 != 0)
+                {
                     Console.WriteLine(i);
+                }
+
             }
+
         }
     }
 }

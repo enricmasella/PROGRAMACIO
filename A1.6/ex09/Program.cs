@@ -1,18 +1,28 @@
-﻿namespace ex09
+﻿namespace Ex09
 {
     internal class Program
     {
+        /// <summary>
+        /// Escriu un programa que demani un número per teclat. El programa ha de mostrar la taula de
+        /// multiplicar de l‘1 al 10 del número entrat per teclat.
+        /// ENTRA UN NÚMERO: 2
+        /// 2 x 0 = 0
+        /// 2 x 1 = 2
+        /// ...
+        /// 2 x 10 = 20
+        /// </summary>
+
         static void Main(string[] args)
         {
             int num;
-            int mult = 0;
-            Console.Write("Digues un numero: ");
-            num = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i <= 10; i++)
+            int resultat;
+
+            Console.Write("Introdueix un numero: "); num = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= 10; i++)
             {
-                int resultat = num * mult;
-                Console.WriteLine($"{num} x {mult} = {resultat}");
-                mult++;
+                resultat = i * num;
+                Console.WriteLine($"{num} x {i} = {resultat}");
             }
         }
     }
