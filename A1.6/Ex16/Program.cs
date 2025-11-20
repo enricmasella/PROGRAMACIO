@@ -1,6 +1,6 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
 
-namespace Ex16
+namespace ex16
 {
     internal class Program
     {

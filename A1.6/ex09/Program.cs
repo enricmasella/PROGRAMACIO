@@ -1,4 +1,4 @@
-﻿namespace Ex09
+﻿namespace ex09
 {
     internal class Program
     {

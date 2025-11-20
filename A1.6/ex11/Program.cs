@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Ex11
+namespace ex11
 {
     internal class Program
     {

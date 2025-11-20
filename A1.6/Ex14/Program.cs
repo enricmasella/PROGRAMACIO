@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace Ex14
+namespace ex14
 {
     internal class Program
     {

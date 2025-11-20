@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.ConstrainedExecution;
 
-namespace Ex17
+namespace ex17
 {
     internal class Program
     {

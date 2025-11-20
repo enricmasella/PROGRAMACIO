@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Globalization;
 
-namespace Ex12
+namespace ex12
 {
     internal class Program
     {

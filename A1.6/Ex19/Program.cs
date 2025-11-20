@@ -1,4 +1,4 @@
-﻿namespace Ex19
+﻿namespace ex19
 {
     internal class Program
     {

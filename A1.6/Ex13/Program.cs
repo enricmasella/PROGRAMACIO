@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Ex13
+namespace ex13
 {
     internal class Program
     {

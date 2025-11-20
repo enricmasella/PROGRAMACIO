@@ -1,4 +1,4 @@
-﻿namespace Ex02
+﻿namespace ex02
 {
     internal class Program
     {

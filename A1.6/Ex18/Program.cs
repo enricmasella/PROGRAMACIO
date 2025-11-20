@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ex18
+namespace ex18
 {
     internal class Program
     {
