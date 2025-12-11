@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "name": "L1.1 Omple Naturals",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.2 Genera Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.3 Suma Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.4 Minim Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.4\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.5 Posicio Minim Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.5\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.6 Maxim Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.6\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.7 Mitjana Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.7\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.8 Capgira Llista",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.8\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "L1.9 Posicio De",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.9\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.10 Conte",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.10\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.11 Conte En Rang",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.11\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.12 Llista A String",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.12\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.13 Comuns Ordenades",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.13\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.14 No Comuns Ordenades",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.14\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.15 Fusio Ordenades",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.15\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.16 Matriu Per Files",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.16\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.17 Matriu Per Columnes",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.17\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.18 Matriu Consecutius",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.18\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.19 Matriu Consecutius Invers",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.19\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.20 Matriu Identitat",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.20\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.21 Minim Matriu",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.21\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "L1.22 Posicio Minim Matriu",
+      "setup": "",
+      "run": "dotnet test --filter \"Categoria=L1.22\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
